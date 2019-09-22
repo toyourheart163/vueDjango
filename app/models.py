@@ -6,4 +6,5 @@ from django.db import models
 class Blog(models.Model):
     title = models.CharField(max_length=200)
     body = models.TextField()
+    visited = models.IntegerField(default=0)
     created = models.DateTimeField(auto_now_add=True)

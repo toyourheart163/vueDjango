@@ -1,8 +1,7 @@
 <template>
   <div id="app">
-    <img class="logo" src="./assets/logo.png">
-    <br>
-    <img class="logo" src="./assets/dj.png">
+    <!-- <img class="logo" src="./assets/logo.png">
+    <img class="logo" src="./assets/dj.png"> -->
     <router-view/>
     <p>
       Welcome to your Django - Vue.js app!
@@ -17,11 +16,11 @@ export default {
 </script>
 
 <style>
-html {
+.html {
   height: 100%;
 }
 
-body {
+.body {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,9 +29,6 @@ body {
 
 #app {
   color: #2c3e50;
-  margin-top: -100px;
-  max-width: 1920px;
-  font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
   text-align: center;
 }
 
